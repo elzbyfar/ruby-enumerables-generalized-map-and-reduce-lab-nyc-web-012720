@@ -14,10 +14,12 @@ end
 
 
 def reduce(arr, acc = nil)
-  if acc == nil
-    acc.to_i
+  if acc
+    num1 = acc
+    i = 0 
   else 
-    acc = true 
+    num1 = arr[0]
+    i = 1 
   end 
   
   i = 0 
