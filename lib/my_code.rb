@@ -20,7 +20,7 @@ def reduce(arr, acc = nil)
     acc = true 
   end 
   
-  
+  puts acc 
   i = 0 
   while i < arr.length do
     acc = yield(acc, arr[i])
