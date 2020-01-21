@@ -26,7 +26,8 @@ end
 
 
 
-
+# digits = [1, 2, 3, 4, 5, 6]
+# true_false = [true, false, true, nil, "bacon"]
 
 # neg_nums = map(digits) do |num| 
 #   num * -1 
@@ -85,8 +86,6 @@ end
 #   end 
 #   acc
 # end
-
-
 
 
 # def reduce_to_any_true(source_array)
