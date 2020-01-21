@@ -13,7 +13,7 @@ end
 
 
 
-def reduce(arr, starting_point = nil)
+def reduce(arr, acc = nil)
   
 end 
 
