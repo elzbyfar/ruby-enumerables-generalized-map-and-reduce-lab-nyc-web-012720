@@ -1,6 +1,3 @@
-digits = [1, 2, 4, 4, 6]
-true_false = [true, true, true]
-
 def map(arr)
   new_arr = []
   i = 0 
@@ -10,8 +7,6 @@ def map(arr)
   end 
   new_arr
 end
-
-
 
 def reduce(arr, starting_point = nil)
   if starting_point
