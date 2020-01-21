@@ -22,7 +22,8 @@ def reduce(arr, starting_point = nil)
     i = 1 
   end 
   while i < arr.length do
-    acc = yield(acc, arr[i])
+    next_val = arr[i]
+    acc = yield(acc, next_val)
     i+=1 
   end 
   acc
