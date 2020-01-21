@@ -26,9 +26,10 @@ def reduce(arr, acc = nil)
     acc = yield(acc, arr[i])
     i+=1 
   end 
-  acc
+  puts acc
 end 
 
+reduce(digits)
 
 
 
