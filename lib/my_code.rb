@@ -13,7 +13,7 @@ end
 
 
 
-def reduce(source_array, starting_point = nil)
+def reduce(arr, starting_point = nil)
   
 end 
 
