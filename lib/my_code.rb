@@ -17,7 +17,7 @@ def reduce(arr, acc = nil)
   if acc == nil
     acc.to_i
   else 
-    acc = true || false 
+    acc = true 
   end 
   
   
