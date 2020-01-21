@@ -15,6 +15,12 @@ end
 
 def reduce(arr, acc = nil)
   
+  i = 0 
+  while i < arr.length do
+    acc = yield(acc, arr[i])
+    i+=1 
+  end 
+  
 end 
 
 
