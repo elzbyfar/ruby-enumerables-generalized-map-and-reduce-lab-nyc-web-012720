@@ -14,6 +14,12 @@ end
 
 
 def reduce(arr, acc = nil)
+  if acc == nil
+    acc.to_i
+  else 
+    acc = true || false 
+  end 
+  
   
   i = 0 
   while i < arr.length do
