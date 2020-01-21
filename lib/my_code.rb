@@ -13,16 +13,14 @@ end
 
 
 
-def reduce(arr, acc = nil)
-  if acc
-    num1 = acc
+def reduce(arr, starting_point = nil)
+  if starting_point
+    acc = starting_point
     i = 0 
   else 
-    num1 = arr[0]
+    acc = arr[0]
     i = 1 
   end 
-  
-  i = 0 
   while i < arr.length do
     acc = yield(acc, arr[i])
     i+=1 
